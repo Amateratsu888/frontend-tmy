@@ -18,6 +18,7 @@ Now, install the dependencies using `pip`:
 ### Step 4: Add environment's variables
 In root folder create a .env.local file and add the follow environment's variables
  - NEXT_PUBLIC_API_URL = "your flask api url"
+ NEXT_PUBLIC_GOOGLE_API_KEY = "your google api key"
 
 
 ## Getting Started

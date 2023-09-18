@@ -58,5 +58,5 @@ const MapContainer: React.FC<MapContainerProps> = ({
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyASEx6Tw3L4lNegdVtj9NbcW7WW9qY_0Rs", // Replace with your Google Maps API Key
+  apiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY as string,
 })(MapContainer);
